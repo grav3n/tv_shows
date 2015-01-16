@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="221dp">
+
+    <com.gustavo.example.tvshows.view.UrlImageView
+        android:id="@+id/sample_image"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@+id/show_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sample Text"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:background="@color/show_info"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
